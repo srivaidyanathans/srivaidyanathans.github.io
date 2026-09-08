@@ -285,13 +285,13 @@ section {
 }
 
 .section__pic-container2 {
-    display: flex;
+    flex: 0 1 420px;
+    width: 100%;
+    max-width: 420px;
     height: 450px;
-    width: 420px;
     margin: auto 0;
     overflow: hidden;
     border-radius: 38%;
-    flex-shrink: 0;
 }
 
 .about-pic {
@@ -355,19 +355,21 @@ section {
 }
 
 .section__pic-container2 {
-    flex: 0 0 420px;
+    display: flex;
     height: 450px;
     width: 420px;
     margin: auto 0;
     overflow: hidden;
     border-radius: 38%;
+    flex-shrink: 0;
 }
 
 .about-pic {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2rem;
+    transform: scale(1.2);
+    object-position: center 7%;
 }
 
 .arrow {
@@ -474,6 +476,16 @@ article .icon {
     background: rgb(250, 250, 250);
     margin: 2rem auto;
     padding: 1rem;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+    max-width: 90%;
+    box-sizing: border-box;
 }
 
 .contact-info-container {
