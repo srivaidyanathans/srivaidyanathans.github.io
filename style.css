@@ -157,7 +157,7 @@ a:hover {
 
 section {
     padding-top: 3vh;
-    height: 96vh;
+    height: 100vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -498,4 +498,20 @@ footer {
     height: 26vh;
     margin: 0 1rem;
 }
-    
+
+/*ADDED LATER: ORGS */
+
+#organizations {
+    position: relative;
+    padding-top: 18vh;
+}
+
+#organizations .title {
+    margin-bottom: 2.3rem;
+}
+
+#organizations {
+    height: auto;
+    min-height: 0;
+    padding-bottom: 4vh;
+}
