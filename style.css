@@ -250,12 +250,9 @@ section {
     font-family: "Ubuntu", sans-serif;
     font-weight: 600;
     font-size: 1rem;
-
     transition: all 300ms ease;
-
     padding: 1rem 1.5rem;
     white-space: nowrap;
-
     border-radius: 2rem;
 }
 
@@ -301,7 +298,6 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
     transform: scale(1);
     object-position: center 20%;
 }
@@ -370,9 +366,7 @@ section {
 .about-pic {
     width: 100%;
     height: 100%;
-
     object-fit: cover;
-
     border-radius: 2rem;
 }
 
@@ -424,3 +418,41 @@ article {
 article .icon {
     cursor: default;
 }
+
+/*PROJECTS*/
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+    margin-bottom: 1.4rem;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163)
+}
+
+#projects .about-containers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#projects .title {
+    margin-bottom: 3rem;
+}
+
