@@ -153,3 +153,135 @@ a:hover {
     transform: none;
 }
 
+/*SECTION STYLES*/
+
+section {
+    padding-top: 3vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/*PROFILE SECTION*/
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 450px;
+    width: 420px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 38%;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transform: scale(1.2);
+    object-position: center 7%;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 500;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__p1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section__text__p2 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.3rem;
+}
+
+/*ICON STYLES*/
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/*BUTTON STYLES*/
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.btn {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+
+    transition: all 300ms ease;
+
+    padding: 1rem 1.5rem;
+    white-space: nowrap;
+
+    border-radius: 2rem;
+}
+
+.btn-color-1, 
+.btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover, 
+.btn-color-2:hover {
+    cursor: pointer;
+}
+
+.btn-color-1, 
+.btn-color-2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0, 0, 0);
+}
+
+.btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+    gap: 1rem;
+}
